@@ -12,7 +12,7 @@ const users = new Set(); // ইউজার আইডি জমা রাখা�
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
   users.add(chatId);
-  bot.sendMessage(chatId, 'স্বাগতম! আমাদের বটে আপনাকে ধন্যবাদ।');
+  bot.sendMessage(chatId, 'স্বাগতম! আমাদের বটে আপনাকে ধন্যবাদ। Html কোডগুলো লাইভ ডিপ্লাই করতে HTML HOSTING এখানে ক্লিক করুন');
 });
 
 // ৩. অ্যাডমিন কতজন ইউজার আছে তা দেখতে পারবে (/stats কম্যান্ড দিয়ে)
